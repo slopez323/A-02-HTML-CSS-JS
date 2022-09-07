@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+header{
+    padding: 20px;
+    background-color: red;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#count{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.star{
+    font-size: 1.3rem;
+    padding: 5px;
+    border: 1px solid rgb(229, 229, 73);
+    border-radius: 5px;
+}
